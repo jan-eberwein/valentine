@@ -7,7 +7,7 @@ const showButtons = ref(false);
 const introText = ref('');
 const messages = [
   'Hallo Sophie ...',
-  'Ich wollte dich etwas ganz Wichtiges fragen ...',
+  'Ich hab da eine ganz ganz wichtige Frage für dich ...',
   'Willst du mein Valentin sein? 💖'
 ];
 let messageIndex = 0;
@@ -47,7 +47,7 @@ onMounted(() => {
 
 <template>
   <div class="valentine-container">
-    <h1>{{ introText }}</h1>
+    <h2>{{ introText }}</h2>
     <video
       id="panda"
       src="https://i.imgur.com/Qhprx77.mp4"
