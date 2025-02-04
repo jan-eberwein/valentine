@@ -8,7 +8,7 @@ const introText = ref('');
 const messages = [
   'Hallo Sophie ...',
   'Ich hab da eine ganz ganz wichtige Frage für dich ...',
-  'Willst du mein Valentin sein? 💖'
+  'WILLST DU MEIN VALENTIN SEIN? 💖'
 ];
 let messageIndex = 0;
 
