@@ -71,7 +71,12 @@ onMounted(() => {
   --barbie-pink: #e0218a;
 }
 
+:global(body) {
+  background-color: white;
+}
+
 .valentine-container {
+  color: black;
   text-align: center;
   font-family: 'Arial', sans-serif;
   padding: 20px;
@@ -107,7 +112,7 @@ onMounted(() => {
 
 .yes-btn {
   background-color: var(--barbie-pink);
-  color: white;
+  color: black;
   box-shadow: 0 4px 14px rgba(224, 33, 138, 0.4);
 }
 
@@ -116,6 +121,8 @@ onMounted(() => {
   background-color: #c81c75;
   box-shadow: 0 6px 16px rgba(224, 33, 138, 0.6);
   transform: translateY(-2px);
+  color: white;
+  font-weight: bold;
 }
 
 .no-btn {
