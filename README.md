@@ -1,2 +1,3 @@
-# valentine
-Valentines Question Web App for girlfriend.
+# Valentines Question Web App
+
+Ask if my girlfriend wants to be my valentine. <3 
